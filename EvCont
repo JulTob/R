@@ -1,0 +1,1 @@
+> datos<- read.table("d:\\datos.txt",header=T,colClasses=c("numeric","factor"))
