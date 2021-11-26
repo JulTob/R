@@ -2,4 +2,25 @@
 > salarios<-t(salarios)
 > creativos<-salarios[,1:3]
 > educacion<-salarios[,4:6]
+> varE<-var(c(educacion))
+> varE
+[1] 50744521
+> varC
+[1] 41258741
+> varE/varC
+[1] 1.22991
+> varC/varE
+[1] 0.8130679
+
+> medE<-mean(c(educacion))
+> medE
+[1] 19817.74
+> medC<-mean(c(creativos))
+> medC
+[1] 17410
+> medC/medE
+[1] 0.878506
+> medE/medC
+[1] 1.138296
+
 
