@@ -1,2 +1,3 @@
 > salarios<-matrix(c(scan("/home/julio/Downloads/salarios.txt")), nrow=6)
+> salarios<-t(salarios)
 
