@@ -1,2 +1,2 @@
-> salarios<-scan("/home/julio/Downloads/salarios.txt")
+> salarios<-matrix(c(scan("/home/julio/Downloads/salarios.txt")), nrow=6)
 
