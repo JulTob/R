@@ -1,1 +1,2 @@
+> salarios<-scan("/home/julio/Downloads/salarios.txt")
 
